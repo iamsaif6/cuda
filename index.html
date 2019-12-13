@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuda Single Page Portfolio</title>
+    <link rel="icon" type="ico/png" href="resources/img/title-logo.ico" />
+    <!--Vendors Files-->
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f95624662f.js" crossorigin="anonymous"></script>
+    <!--Resources Files-->
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/responsive.css" />
+</head>
+
+<body>
+    <!--Start Header Section-->
+    <header id="home">
+        <nav>
+            <div class="row">
+                <img src="resources/img/logo.png" class="logo" alt="#" />
+                <ul class="main-nav" id="my-awesome-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#client">client</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <span onclick="openNav()">&#9776;</span>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0);" onclick="closeNav()" class="closebtn">&times;</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="#home">Home</a>
+                            <a onclick="closeNav()" href="#services">Services</a>
+                            <a onclick="closeNav()" href="#team">Team</a>
+                            <a onclick="closeNav()" href="#skill">Skill</a>
+                            <a onclick="closeNav()" href="#portfolio">portfolio</a>
+                            <a onclick="closeNav()" href="#client">client</a>
+                            <a onclick="closeNav()" href="#contact">contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="hero-text-box">
+                <h1>Hi there! We are the new kids on the block
+                    and we build awesome websites and mobile apps.</h1>
+                <a href="#contact" class="btn btn-hero">work with us!</a>
+            </div>
+        </div>
+
+    </header>
+    <!--End Header Section-->
+
+    <!--StartServices Section-->
+
+    <section class="services-section js--services" id="services">
+        <div class="row">
+            <h2>SERVICES WE PROVIDE</h2>
+            <p class="little-description">We are working with both individuals and businesses from all over the globe
+                to create awesome websites and applications.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/flag.png" alt="flag" class="services-icon" />
+                <h3>branding</h3>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+            </div>
+
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/pen.png" alt="flag" class="services-icon" />
+                <h3>design</h3>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+            </div>
+
+
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/settings.png" alt="flag" class="services-icon" />
+                <h3>devolpment</h3>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+            </div>
+
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/rocket.png" alt="flag" class="services-icon" />
+                <h3>rocket science</h3>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--End Services Section-->
+
+
+    <!--Start Team Section-->
+    <section class="team-section" id="team">
+        <div class="row">
+            <h2>MEET OUR BEAUTIFUL TEAM</h2>
+            <p class="little-description">We are a small team of designers and developers, who help brands with big ideas.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/1.jpg" class="team-pic" alt="#" />
+                <h3>ANNE HATHAWAY</h3>
+                <span class="team-title">CEO / Marketing Guru</span>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                <div class="social-icon">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fas fa-envelope"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/2.jpg" class="team-pic" alt="#" />
+                <h3>ANNE HATHAWAY</h3>
+                <span class="team-title">CEO / Marketing Guru</span>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                <div class="social-icon">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fas fa-envelope"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/3.jpg" class="team-pic" alt="#" />
+                <h3>ANNE HATHAWAY</h3>
+                <span class="team-title">CEO / Marketing Guru</span>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                <div class="social-icon">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fas fa-envelope"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/4.jpg" class="team-pic" alt="#" />
+                <h3>ANNE HATHAWAY</h3>
+                <span class="team-title">CEO / Marketing Guru</span>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                <div class="social-icon">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fas fa-envelope"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--End Team Section-->
+
+    <!--Start Skill Section-->
+
+    <section class="skill-section" id="skill">
+        <div class="row">
+            <h2>WE GOT SKILLS!</h2>
+            <p class="little-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                </svg>
+                <h3>web design</h3>
+            </div>
+
+
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress html-css" data-percentage="75" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+                </svg>
+                <h3>html/css</h3>
+            </div>
+
+
+
+
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress ui-ux" data-percentage="85" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                </svg>
+                <h3>ui/ux</h3>
+            </div>
+
+
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress graphics-design" data-percentage="70" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                </svg>
+                <h3>graphics design</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <!--End Skill Section-->
+
+
+    <!--Start Portfolio Section-->
+    <section class="portfolio-section" id="portfolio">
+        <div class="row">
+            <h2>our portfolio</h2>
+            <p class="little-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+        <div class="row">
+            <div class="filter-menu">
+                <button type="button" data-filter="all">all</button>
+                <button type="button" data-filter=".web">web</button>
+                <button type="button" data-filter=".apps">apps</button>
+                <button type="button" data-filter=".icons">icons</button>
+            </div>
+        </div>
+        <div class="row" id="container">
+            <div class="col span_1_of_2 box mix web icons">
+                <img src="resources/img/pic1.png" class="portfolio-pic" />
+                <h4>isometric prespective mockup</h4>
+
+            </div>
+            <div class="col span_1_of_2 box mix icons apps">
+                <img src="resources/img/pic1.png" class="portfolio-pic" />
+                <h4>isometric prespective mockup</h4>
+
+            </div>
+
+
+            <div class="col span_1_of_2 box mix web">
+                <img src="resources/img/pic1.png" class="portfolio-pic" />
+                <h4>isometric prespective mockup</h4>
+
+            </div>
+
+            <div class="col span_1_of_2 box mix icons apps">
+                <img src="resources/img/pic1.png" class="portfolio-pic" />
+                <h4>isometric prespective mockup</h4>
+
+
+            </div>
+
+        </div>
+
+        <div class="row load-more-button">
+
+            <a href="" class="btn btn-load-more">load more project</a>
+        </div>
+
+    </section>
+
+    <!--End Portfolio Section-->
+
+    <!-- Start Client Section -->
+
+    <section class="client-section" id="client">
+        <div class="row">
+            <h2>what people say about us</h2>
+            <p class="little-description">our clints love us!</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_2">
+                <div class="client-photo">
+                    <img src="resources/img/1.jpg" alt="pic" />
+                </div>
+                <div class="client-review">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae porro, deserunt eum </p>
+                    <h3>mark zuke</h3>
+                    <span class="role">ceo of facebook</span>
+                </div>
+            </div>
+
+            <div class="col span_1_of_2">
+                <div class="client-photo">
+                    <img src="resources/img/2.jpg" alt="pic" />
+                </div>
+                <div class="client-review">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae porro, deserunt eum </p>
+                    <h3>isabella</h3>
+                    <span class="role">ceo of hike</span>
+                </div>
+            </div>
+
+            <div class="col span_1_of_2">
+                <div class="client-photo">
+                    <img src="resources/img/3.jpg" alt="pic" />
+                </div>
+                <div class="client-review">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae porro, deserunt eum </p>
+                    <h3>surindr pechai</h3>
+                    <span class="role">ceo of google</span>
+                </div>
+            </div>
+
+            <div class="col span_1_of_2">
+                <div class="client-photo">
+                    <img src="resources/img/4.jpg" alt="pic" />
+                </div>
+                <div class="client-review">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae porro, deserunt eum </p>
+                    <h3>anabella luis</h3>
+                    <span class="role">ceo of github</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- End Client Section -->
+
+    <!--Start Form Section-->
+    <section class="form-section" id="contact">
+        <div class="row">
+            <h2>get in touch</h2>
+            <p class="little-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quisquam error </p>
+        </div>
+        <div class="row">
+            <form action="https://formspree.io/saifhassan399@gmail.com" method="post">
+                <div class="row">
+                    <div class="col span_1_of_2">
+                        <input type="text" placeholder="Your Name*" required />
+                    </div>
+                    <div class="col span_1_of_2">
+                        <input type="email" placeholder="Your Email*" required />
+                    </div>
+                </div>
+                <div class="row">
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message*"></textarea>
+                </div>
+                <div class="row">
+                    <input type="submit" value="SEND MESSAGE" class="btn btn-submit" required />
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--End Form Section-->
+    <!-- Start Footer Section -->
+
+    <section class="footer-section">
+        <div class="row">
+            <ul id="myDiv">
+                <li><a href="">facebook</a></li>
+                <li id="active"><a href="">twitter</a></li>
+                <li><a href="">google+</a></li>
+                <li><a href="">linkedin</a></li>
+                <li><a href="">behance</a></li>
+                <li><a href="">dribble</a></li>
+                <li><a href="">github</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+    <!-- End Footer Section -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="vendors/js/html5shiv.min.js"></script>
+    <script src="vendors/js/selectivizr-min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/gumshoe.polyfills.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="resources/js/main.js"></script>
+
+</body>
+
+</html>
